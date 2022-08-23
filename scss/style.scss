@@ -6,7 +6,7 @@
 
 
 .body_index {
-  
+
   background-image: url("../img/fondo2.jpg");
   height: 100%;
   background-size: cover;
@@ -21,19 +21,39 @@
 }
 
 .header {
-   color: #FFFFFF;
+  color: #FFFFFF;
   background-color: #c2b3d4;
   position: sticky;
   top: 0px;
   z-index: 10;
+
+  .header__nav__ul__li {
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    padding: 2px;
+    background-color: rgba(168, 47, 168, 0.438);
+    margin: 1px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    animation-name: coloranchors;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
+}
 
 
 
 .VideoEstetica {
-  display: flex ;
+  display: flex;
   justify-content: center;
-   margin-top: 2%;
+  margin-top: 2%;
   padding: 3%;
 }
 
@@ -41,8 +61,8 @@
 
 
 .cajaArticles {
-  
-  grid-area:cajaArticles ;
+
+  grid-area: cajaArticles;
   flex-direction: column;
   text-align: center;
   width: fit-content;
@@ -53,13 +73,13 @@
   margin-right: auto;
   background-color: #7E5A9B;
   border-radius: 20px;
-  }
+}
 
-.articulosDeBelleza{
-   display:flex;
+.articulosDeBelleza {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  }
+}
 
 .articulodebelleza {
   display: inline-flex;
@@ -78,66 +98,30 @@
   font-style: italic;
 }
 
-.body_conocenos { 
+.body_conocenos {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-   }
-
-
-conocenos_1 {
-  display: grid;
-  grid-area: conocenos_1;
-}
-
-conocenos_2 {
-  display: grid;
-  grid-area: conocenos_2;
-}
-
-conocenos_3 {
-  display: grid;
-  grid-area: conocenos_3;
 }
 
 
 
-.header__nav__ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
+
+
+
+
 
 /* porque no tengo borde*/
-.header__nav__ul__li {
-  position: relative;
-  display: inline-block;
-  height: fit-content;
-  width: fit-content;
-  padding: 30px;
-  background-color: rgba(168, 47, 168, 0.438);
-  margin: 1px;
-  border-color: #FFFFFF;
-  border-style: solid;
-  font-family: 'Rubik', sans-serif;
-  border-radius: 20px;
-  text-decoration: none;
-  color: #FFFFFF;
-  animation-name: coloranchors;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 
-}
 
 @keyframes coloranchors {
-  0%{
+  0% {
     background-color: rgb(161, 121, 165);
   }
 }
-  
+
 
 .li {
   align-self: center;
@@ -150,7 +134,8 @@ conocenos_3 {
 
 
 h1 {
-  position: relative; top: 1vh ; 
+  position: relative;
+  top: 1vh;
   right: auto;
   left: auto;
   height: auto;
@@ -194,11 +179,13 @@ h2 {
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-.header__nav__ul__li:hover{
-  box-shadow:0 0 35px rgb(159, 101, 170) ;
+
+.header__nav__ul__li:hover {
+  box-shadow: 0 0 35px rgb(159, 101, 170);
 }
+
 @keyframes animacionh2 {
-  50%{
+  50% {
     background-color: rgb(238, 145, 222);
   }
 }
@@ -264,7 +251,7 @@ p {
   text-align: center;
   font-weight: bold;
   color: beige;
-  
+
 }
 
 .precioServicios {
@@ -338,7 +325,7 @@ fieldset {
 }
 
 .footer {
-  
+
   position: relative;
   margin-top: 20px;
   height: 200px;
