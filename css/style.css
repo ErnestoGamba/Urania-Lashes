@@ -3,18 +3,6 @@
   padding: 0px;
   box-sizing: border-box; }
 
-.body_index {
-  background-image: url("../img/fondo2.jpg");
-  height: 100%;
-  background-size: cover;
-  padding: 1px;
-  gap: 0px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  grid-template-columns: auto;
-  grid-template-rows: auto; }
-
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -39,12 +27,56 @@
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate; }
+    .header .header__nav__ul__li:hover {
+      box-shadow: 0 0 35px #9f65aa; }
 
-.VideoEstetica {
-  display: flex;
-  justify-content: center;
-  margin-top: 2%;
-  padding: 3%; }
+.li {
+  align-self: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: inline-block; }
+
+.body_index {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  padding: 1px;
+  gap: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-template-columns: auto;
+  grid-template-rows: auto; }
+
+.promos {
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  border-radius: 20px; }
+
+.aside {
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  color: beige;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7E5A9B;
+  align-self: center;
+  border-radius: 20px; }
 
 .cajaArticles {
   grid-area: cajaArticles;
@@ -58,28 +90,33 @@
   margin-right: auto;
   background-color: #7E5A9B;
   border-radius: 20px; }
+  .cajaArticles .articulosDeBelleza {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .cajaArticles .articulosDeBelleza .articulodebelleza {
+      display: inline-flex;
+      flex-direction: column;
+      height: 200px;
+      width: 300px;
+      padding: 30px;
+      margin: 20px;
+      background-color: pink;
+      border-radius: 10px;
+      border-width: 5px;
+      border-color: #FFFFFF;
+      border-style: solid;
+      color: #ffffff;
+      font-family: 'Rubik', sans-serif;
+      font-style: italic; }
 
-.articulosDeBelleza {
+.VideoEstetica {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; }
+  justify-content: center;
+  margin-top: 2%;
+  padding: 3%; }
 
-.articulodebelleza {
-  display: inline-flex;
-  flex-direction: column;
-  height: 200px;
-  width: 300px;
-  padding: 30px;
-  margin: 20px;
-  background-color: pink;
-  border-radius: 10px;
-  border-width: 5px;
-  border-color: #FFFFFF;
-  border-style: solid;
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic; }
-
+/*cada pagina va a tener su propio scss con las partes que se repite (header, footer, etc. en la de el index o main)*/
 .body_conocenos {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -87,18 +124,9 @@
   background-repeat: no-repeat;
   background-position: center; }
 
-/* porque no tengo borde*/
 @keyframes coloranchors {
   0% {
     background-color: #a179a5; } }
-
-.li {
-  align-self: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: inline-block; }
 
 h1 {
   position: relative;
@@ -145,9 +173,6 @@ h2 {
   animation-iteration-count: infinite;
   animation-direction: alternate; }
 
-.header__nav__ul__li:hover {
-  box-shadow: 0 0 35px #9f65aa; }
-
 @keyframes animacionh2 {
   50% {
     background-color: #ee91de; } }
@@ -163,25 +188,18 @@ h4 {
   font-style: italic;
   margin-bottom: 2%; }
 
-.videoEstetica {
-  width: fit-content;
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
-
-.promos {
-  text-align: center;
-  background-color: pink;
-  padding: 20px;
-  width: fit-content;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
+p {
   font-family: 'Rubik', sans-serif;
   font-style: italic;
-  border-radius: 20px; }
+  text-align: center;
+  font-weight: bold;
+  color: beige; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
 
 .tablaprecios {
   align-self: center; }
@@ -198,13 +216,6 @@ h4 {
   border-width: 20px;
   background-color: #7E5A9B; }
 
-p {
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  text-align: center;
-  font-weight: bold;
-  color: beige; }
-
 .precioServicios {
   text-align: center;
   font-family: 'Rubik', sans-serif;
@@ -216,27 +227,6 @@ p {
   padding: 2px;
   margin: 20px auto 20px auto;
   border-radius: 5px; }
-
-a {
-  text-decoration: none; }
-
-ul {
-  list-style: none; }
-
-.aside {
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  color: beige;
-  width: fit-content;
-  height: fit-content;
-  padding: 20px;
-  margin-top: 25px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7E5A9B;
-  align-self: center;
-  border-radius: 20px; }
 
 .sectionchica {
   display: iblock;
@@ -274,27 +264,24 @@ fieldset {
   padding-bottom: 0px;
   bottom: 0px;
   grid-area: footer; }
-
-.footerlinks {
-  height: 50px;
-  width: 400px;
-  padding-left: 30px;
-  margin-top: 2px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 0px; }
-
-.footerdiv__ul {
-  text-align: start;
-  font-family: 'Rubik', sans-serif;
-  color: beige;
-  font-size: 15px; }
-
-.derechos {
-  text-align: end;
-  width: auto;
-  height: auto;
-  font-family: 'Rubik', sans-serif;
-  color: beige;
-  font-size: 12px; }
+  .footer .footerlinks {
+    height: 50px;
+    width: 400px;
+    padding-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px; }
+  .footer .footerdiv__ul {
+    text-align: start;
+    font-family: 'Rubik', sans-serif;
+    color: beige;
+    font-size: 15px; }
+  .footer .derechos {
+    text-align: end;
+    width: auto;
+    height: auto;
+    font-family: 'Rubik', sans-serif;
+    color: beige;
+    font-size: 12px; }
