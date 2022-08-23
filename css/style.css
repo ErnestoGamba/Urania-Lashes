@@ -21,6 +21,24 @@
   position: sticky;
   top: 0px;
   z-index: 10; }
+  .header .header__nav__ul__li {
+    position: relative;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    padding: 2px;
+    background-color: rgba(168, 47, 168, 0.438);
+    margin: 1px;
+    border-color: #FFFFFF;
+    border-style: solid;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    animation-name: coloranchors;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
 
 .VideoEstetica {
   display: flex;
@@ -69,43 +87,7 @@
   background-repeat: no-repeat;
   background-position: center; }
 
-conocenos_1 {
-  display: grid;
-  grid-area: conocenos_1; }
-
-conocenos_2 {
-  display: grid;
-  grid-area: conocenos_2; }
-
-conocenos_3 {
-  display: grid;
-  grid-area: conocenos_3; }
-
-.header__nav__ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
 /* porque no tengo borde*/
-.header__nav__ul__li {
-  position: relative;
-  display: inline-block;
-  height: fit-content;
-  width: fit-content;
-  padding: 30px;
-  background-color: rgba(168, 47, 168, 0.438);
-  margin: 1px;
-  border-color: #FFFFFF;
-  border-style: solid;
-  font-family: 'Rubik', sans-serif;
-  border-radius: 20px;
-  text-decoration: none;
-  color: #FFFFFF;
-  animation-name: coloranchors;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
-
 @keyframes coloranchors {
   0% {
     background-color: #a179a5; } }
