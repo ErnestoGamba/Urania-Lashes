@@ -9,7 +9,7 @@
 
 .header {
   color: $blanco;
-  background-color: #c2b3d4;
+  background-color: $ligthpurple;
   position: sticky;
   top: 0px;
   z-index: 10;
@@ -20,7 +20,7 @@
     height: fit-content;
     width: fit-content;
     padding: 2px;
-    background-color: rgba(168, 47, 168, 0.438);
+    background-color: $bgpurple ;
     margin: 1px;
     border-color: $blanco;
     border-style: solid;
@@ -33,7 +33,7 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     &:hover {
-      box-shadow: 0 0 35px rgb(159, 101, 170);
+      box-shadow: 0 0 35px $buttonshadowpurple;
       
     }
   }
@@ -41,7 +41,7 @@
 
 @keyframes coloranchors {
   0% {
-    background-color: rgb(161, 121, 165);
+    background-color: $buttonanimationpurple;
   }
 }
 
@@ -70,13 +70,13 @@
 }
 .promos {
   text-align: center;
-  background-color: pink;
+  background-color: $pink;
   padding: 20px;
   width: fit-content;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  color: #ffffff;
+  color: $blanco;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   border-radius: 20px;
@@ -85,7 +85,7 @@
 .aside {
   font-family: 'Rubik', sans-serif;
   font-style: italic;
-  color: beige;
+  color: $beige;
   width: fit-content;
   height: fit-content;
   padding: 20px;
@@ -93,7 +93,7 @@
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #7E5A9B;
+  background-color:$mediumpurple;
   align-self: center;
   border-radius: 20px;
 }
@@ -108,7 +108,7 @@
   margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #7E5A9B;
+  background-color: $mediumpurple;
   border-radius: 20px;
   .articulosDeBelleza {
     display: flex;
@@ -121,12 +121,12 @@
       width: 300px;
       padding: 30px;
       margin: 20px;
-      background-color: pink;
+      background-color: $pink;
       border-radius: 10px;
       border-width: 5px;
-      border-color: #FFFFFF;
+      border-color: $blanco;
       border-style: solid;
-      color: #ffffff;
+      color: $blanco;
       font-family: 'Rubik', sans-serif;
       font-style: italic;
     }
@@ -164,7 +164,7 @@
   padding-left: 20px;
   padding-right: 20px;
   border-width: 20px;
-  background-color: #7E5A9B;
+  background-color: $mediumpurple;
 }
 
 .precioServicios {
@@ -172,8 +172,8 @@
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   text-align: center;
-  color: beige;
-  background-color: pink;
+  color: $beige;
+  background-color: $pink;
   width: fit-content;
   padding: 2px;
   margin: 20px auto 20px auto;
@@ -184,7 +184,7 @@
   display: iblock;
   border-style: solid;
   border-width: 5px;
-  border-color: beige;
+  border-color: $beige;
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
@@ -193,7 +193,7 @@
   padding: 15px;
   height: fit-content;
   width: 50%;
-  background-color: rgb(255, 0, 179);
+  background-color: $bgchica;
   border-radius: 50px;
 }
 
@@ -202,7 +202,7 @@
   margin-top: 20px;
   height: 200px;
   width: 100%;
-  background-color: #63458A;
+  background-color: $footerpurple ;
   padding-bottom: 0px;
   bottom: 0px;
   grid-area: footer;
@@ -219,7 +219,7 @@
   .footerdiv__ul {
     text-align: start;
     font-family: 'Rubik', sans-serif;
-    color: beige;
+    color: $beige;
     font-size: 15px;
   }
     .derechos {
@@ -227,7 +227,7 @@
     width: auto;
     height: auto;
     font-family: 'Rubik', sans-serif;
-    color: beige;
+    color: $beige;
     font-size: 12px;
   }
 }

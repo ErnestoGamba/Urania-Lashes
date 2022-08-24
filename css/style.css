@@ -87,6 +87,7 @@ fieldset {
   background-color: #7E5A9B;
   align-self: center; }
 
+/*effect colors*/
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -146,7 +147,7 @@ fieldset {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   border-radius: 20px; }
@@ -194,7 +195,7 @@ fieldset {
       border-width: 5px;
       border-color: #FFFFFF;
       border-style: solid;
-      color: #ffffff;
+      color: #FFFFFF;
       font-family: 'Rubik', sans-serif;
       font-style: italic; }
 
@@ -252,7 +253,7 @@ fieldset {
   padding: 15px;
   height: fit-content;
   width: 50%;
-  background-color: #ff00b3;
+  background-color: 255, 0, 179;
   border-radius: 50px; }
 
 .footer {
@@ -260,7 +261,7 @@ fieldset {
   margin-top: 20px;
   height: 200px;
   width: 100%;
-  background-color: #63458A;
+  background-color: 255, 0, 179;
   padding-bottom: 0px;
   bottom: 0px;
   grid-area: footer; }
