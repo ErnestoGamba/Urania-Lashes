@@ -3,6 +3,90 @@
   padding: 0px;
   box-sizing: border-box; }
 
+h1 {
+  position: relative;
+  top: 1vh;
+  right: auto;
+  left: auto;
+  height: auto;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #7E5A9B;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: beige;
+  font-size: 30px; }
+
+h2 {
+  display: iblock;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  background-color: pink;
+  border-radius: 20px;
+  text-decoration: solid;
+  color: beige;
+  animation-name: animacionh2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes animacionh2 {
+  50% {
+    background-color: #ee91de; } }
+
+h3 {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic; }
+
+h4 {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  margin-bottom: 2%; }
+
+p {
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: beige; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+fieldset {
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7E5A9B;
+  align-self: center; }
+
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -29,6 +113,10 @@
     animation-direction: alternate; }
     .header .header__nav__ul__li:hover {
       box-shadow: 0 0 35px #9f65aa; }
+
+@keyframes coloranchors {
+  0% {
+    background-color: #a179a5; } }
 
 .li {
   align-self: center;
@@ -124,83 +212,6 @@
   background-repeat: no-repeat;
   background-position: center; }
 
-@keyframes coloranchors {
-  0% {
-    background-color: #a179a5; } }
-
-h1 {
-  position: relative;
-  top: 1vh;
-  right: auto;
-  left: auto;
-  height: auto;
-  width: fit-content;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  background-color: #7E5A9B;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-  color: beige;
-  font-size: 30px; }
-
-h2 {
-  display: iblock;
-  height: fit-content;
-  width: fit-content;
-  padding: 20px;
-  text-align: center;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 5px;
-  border-color: beige;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  background-color: pink;
-  border-radius: 20px;
-  text-decoration: solid;
-  color: beige;
-  animation-name: animacionh2;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
-
-@keyframes animacionh2 {
-  50% {
-    background-color: #ee91de; } }
-
-h3 {
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic; }
-
-h4 {
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  margin-bottom: 2%; }
-
-p {
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  text-align: center;
-  font-weight: bold;
-  color: beige; }
-
-a {
-  text-decoration: none; }
-
-ul {
-  list-style: none; }
-
 .tablaprecios {
   align-self: center; }
 
@@ -243,17 +254,6 @@ ul {
   width: 50%;
   background-color: #ff00b3;
   border-radius: 50px; }
-
-fieldset {
-  width: fit-content;
-  height: fit-content;
-  padding: 20px;
-  margin-top: 25px;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7E5A9B;
-  align-self: center; }
 
 .footer {
   position: relative;
