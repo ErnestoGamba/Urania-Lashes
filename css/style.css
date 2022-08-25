@@ -253,7 +253,7 @@ fieldset {
   padding: 15px;
   height: fit-content;
   width: 50%;
-  background-color: 255, 0, 179;
+  background-color: #ff00b3;
   border-radius: 50px; }
 
 .footer {
@@ -261,7 +261,7 @@ fieldset {
   margin-top: 20px;
   height: 200px;
   width: 100%;
-  background-color: 255, 0, 179;
+  background-color: #7E5A9B;
   padding-bottom: 0px;
   bottom: 0px;
   grid-area: footer; }
