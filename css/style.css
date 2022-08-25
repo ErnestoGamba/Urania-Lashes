@@ -3,6 +3,7 @@
   padding: 0px;
   box-sizing: border-box; }
 
+/*effect colors*/
 body {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -22,7 +23,7 @@ h1 {
   left: auto;
   height: auto;
   width: fit-content;
-  margin-top: 20%;
+  margin-top: 1.5%;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -42,8 +43,8 @@ h2 {
   width: fit-content;
   padding: 20px;
   text-align: center;
-  margin-top: 20vh;
-  margin-bottom: 20vh;
+  margin-top: 2%;
+  margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
   border-style: solid;
@@ -89,17 +90,36 @@ ul {
   list-style: none; }
 
 fieldset {
+  display: flex;
   width: fit-content;
   height: fit-content;
+  flex-direction: column;
   padding: 20px;
-  margin-top: 25px;
+  margin-top: 10%;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   background-color: #7E5A9B;
-  align-self: center; }
+  border-color: beige;
+  border-width: 5px; }
 
 /*effect colors*/
+.sectionchica {
+  display: iblock;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: fit-content;
+  width: 50%;
+  background-color: #ff00b3;
+  border-radius: 50px; }
+
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -239,22 +259,6 @@ fieldset {
   padding: 2px;
   margin: 20px auto 20px auto;
   border-radius: 5px; }
-
-.sectionchica {
-  display: iblock;
-  border-style: solid;
-  border-width: 5px;
-  border-color: beige;
-  text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  height: fit-content;
-  width: 50%;
-  background-color: #ff00b3;
-  border-radius: 50px; }
 
 .footer {
   position: relative;

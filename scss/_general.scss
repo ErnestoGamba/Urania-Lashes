@@ -1,3 +1,5 @@
+@import "colors" ;
+
 body {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -18,7 +20,7 @@ h1 {
     left: auto;
     height: auto;
     width: fit-content;
-    margin-top: 20%;
+    margin-top: 1.5%;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -39,8 +41,8 @@ h1 {
     width: fit-content;
     padding: 20px;
     text-align: center;
-    margin-top: 20vh;
-    margin-bottom: 20vh;
+    margin-top: 2%;
+    margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -83,7 +85,7 @@ h1 {
     text-align: center;
     font-weight: bold;
     color: beige;
-  }
+     }
   
   a {
     text-decoration: none;
@@ -94,13 +96,16 @@ h1 {
   }
   
   fieldset {
+    display: flex;
     width: fit-content;
     height: fit-content;
+    flex-direction: column;
     padding: 20px;
-    margin-top: 25px;
+    margin-top: 10%;
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     background-color: #7E5A9B;
-    align-self: center;
+    border-color: $beige;
+    border-width: 5px;
   }
