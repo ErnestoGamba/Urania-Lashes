@@ -1,3 +1,16 @@
+body {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  padding: 1px;
+  gap: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
 h1 {
     position: relative;
     top: 1vh;
@@ -5,7 +18,7 @@ h1 {
     left: auto;
     height: auto;
     width: fit-content;
-    margin-top: 30px;
+    margin-top: 20%;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
