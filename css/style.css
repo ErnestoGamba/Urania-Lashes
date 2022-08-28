@@ -89,7 +89,7 @@ a {
 ul {
   list-style: none; }
 
-fieldset {
+.FormularioContacto, .Turnero {
   display: flex;
   width: fit-content;
   height: fit-content;
