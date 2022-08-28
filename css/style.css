@@ -231,6 +231,12 @@ ul {
   background-color: rgba(255, 165, 62, 0.945);
   border-radius: 50px; }
 
+.TituloFormTurnos {
+  display: flex;
+  color: #f81d00;
+  justify-content: center;
+  padding-bottom: 0.3%; }
+
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -313,11 +319,12 @@ ul {
   .cajaArticles .articulosDeBelleza {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: center; }
     .cajaArticles .articulosDeBelleza .articulodebelleza {
       display: inline-flex;
       flex-direction: column;
-      height: 200px;
+      height: fit-content;
       width: 300px;
       padding: 30px;
       margin: 20px;
@@ -326,7 +333,7 @@ ul {
       border-width: 5px;
       border-color: #FFFFFF;
       border-style: solid;
-      color: #FFFFFF;
+      color: #550eda;
       font-family: 'Rubik', sans-serif;
       font-style: italic; }
 

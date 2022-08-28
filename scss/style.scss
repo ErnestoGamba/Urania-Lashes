@@ -7,6 +7,7 @@
 @import "general" ;
 @import "colors" ;
 @import "conocenos" ;
+@import "turnos" ;
 
 .header {
   color: $blanco;
@@ -99,10 +100,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     .articulodebelleza {
       display: inline-flex;
       flex-direction: column;
-      height: 200px;
+      height: fit-content;
       width: 300px;
       padding: 30px;
       margin: 20px;
@@ -111,7 +113,7 @@
       border-width: 5px;
       border-color: $blanco;
       border-style: solid;
-      color: $blanco;
+      color: rgba($color: #550eda, $alpha: 1.0);
       font-family: 'Rubik', sans-serif;
       font-style: italic;
     }
