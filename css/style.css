@@ -76,12 +76,17 @@ h4 {
   font-style: italic;
   margin-bottom: 2%; }
 
-p {
+.ParrafoIndex, .ParrafoConocenos {
+  display: flex;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   text-align: center;
   font-weight: bold;
-  color: beige; }
+  color: beige;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px; }
 
 a {
   text-decoration: none; }
@@ -104,6 +109,112 @@ ul {
   border-width: 5px; }
 
 /*effect colors*/
+/*effect colors*/
+/*effect colors*/
+body {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  padding: 1px;
+  gap: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-template-columns: auto;
+  grid-template-rows: auto; }
+
+h1 {
+  position: relative;
+  top: 1vh;
+  right: auto;
+  left: auto;
+  height: auto;
+  width: fit-content;
+  margin-top: 1.5%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: #7E5A9B;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: beige;
+  font-size: 30px; }
+
+h2 {
+  display: iblock;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  background-color: pink;
+  border-radius: 20px;
+  text-decoration: solid;
+  color: beige;
+  animation-name: animacionh2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes animacionh2 {
+  50% {
+    background-color: #ee91de; } }
+
+h3 {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic; }
+
+h4 {
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  margin-bottom: 2%; }
+
+.ParrafoIndex, .ParrafoConocenos {
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: bold;
+  color: beige;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.FormularioContacto, .Turnero {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7E5A9B;
+  border-color: beige;
+  border-width: 5px; }
+
 .sectionchica {
   display: iblock;
   border-style: solid;
@@ -117,7 +228,7 @@ ul {
   padding: 15px;
   height: fit-content;
   width: 50%;
-  background-color: #ff00b3;
+  background-color: rgba(255, 165, 62, 0.945);
   border-radius: 50px; }
 
 .header {

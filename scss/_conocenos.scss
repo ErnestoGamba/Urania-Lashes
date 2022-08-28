@@ -1,3 +1,5 @@
+@import "colors" ;
+@import "general" ;
 .sectionchica {
     display: iblock;
     border-style: solid;
@@ -13,4 +15,8 @@
     width: 50%;
     background-color: $bgchica;
     border-radius: 50px;
+  }
+
+  .ParrafoConocenos {
+    @extend .ParrafoIndex
   }
