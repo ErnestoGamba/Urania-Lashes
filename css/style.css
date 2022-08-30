@@ -238,7 +238,11 @@ ul {
   font-family: 'Rubik', sans-serif;
   font-size: larger;
   font-weight: 700;
-  color: #f81d00; }
+  color: rgba(255, 165, 62, 0.945); }
+
+.center {
+  display: flex;
+  align-self: center; }
 
 .header {
   color: #FFFFFF;

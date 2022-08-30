@@ -1,3 +1,7 @@
-@mixin Fuente {
+@mixin FuenteTituloSm {
     font-family: 'Rubik', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    color: $bgchica;
+
 }

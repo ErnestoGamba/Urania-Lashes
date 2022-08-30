@@ -9,7 +9,10 @@
 @import "conocenos" ;
 @import "turnos" ;
 @import "mixin" ;
-
+.center {
+  display: flex;
+  align-self:center;
+}
 .header {
   color: $blanco;
   background-color: $ligthpurple;
