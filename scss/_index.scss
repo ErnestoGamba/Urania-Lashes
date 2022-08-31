@@ -1,0 +1,75 @@
+@import "colors";   
+
+.ParrafoIndex {
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    color: map-get($coloresGenerales, marfil);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+     }
+.aside {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    color: map-get($coloresGenerales, marfil);
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: map-get($coloresGenerales, moradomedio) ;
+    align-self: center;
+    border-radius: 20px;
+  }
+  
+  .cajaArticles {
+    grid-area: cajaArticles;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: map-get($coloresGenerales, moradomedio) ;
+    border-radius: 20px;
+  
+    .articulosDeBelleza {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  
+      .articulodebelleza {
+        display: inline-flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 300px;
+        padding: 30px;
+        margin: 20px;
+        background-color: map-get($coloresGenerales, rosa);
+        border-radius: 10px;
+        border-width: 5px;
+        border-color: map-get($coloresGenerales, blanco); 
+        border-style: solid;
+        color:  map-get($coloresGenerales, moradomedio) ;
+        font-family: 'Rubik', sans-serif;
+        font-style: italic;
+      }
+    }
+  }
+  
+  .VideoEstetica {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 3%;
+  }

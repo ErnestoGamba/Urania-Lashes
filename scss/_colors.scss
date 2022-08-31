@@ -1,13 +1,14 @@
-
-$blanco: #FFFFFF;
-$ligthpurple :#c2b3d4;
-$mediumpurple: #7E5A9B ;
-$bgpurple: rgba(168, 47, 168, 0.438);
-$footerpurple: rgb(255, 0, 179) ;
-$pink: pink ; 
-$beige: beige ;
-$bgchica: rgba(255, 165, 62, 0.945) ; 
+$coloresGenerales : (
+'blanco' : #FFFFFF ,
+'ligthpurple' :#c2b3d4 ,
+'moradomedio' : #7E5A9B  ,
+'rosa' : pink ,
+'marfil' : beige  ,
+'bgchica' : rgba(255, 165, 62, 0.945) ,
+) ;
 
 /*effect colors*/
+
 $buttonshadowpurple: rgb(159, 101, 170) ;
 $buttonanimationpurple: rgb(161, 121, 165) ;
+

@@ -1,10 +1,19 @@
 @import "colors" ;
 @import "general" ;
+
+.body_conocenos {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .sectionchica {
     display: iblock;
     border-style: solid;
     border-width: 5px;
-    border-color: $beige;
+    border-color: map-get($coloresGenerales, marfil);
     text-align: center;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -13,10 +22,11 @@
     padding: 15px;
     height: fit-content;
     width: 50%;
-    background-color: $bgchica;
+    background-color: map-get($coloresGenerales, bgchica) ;
     border-radius: 50px;
   }
 
   .ParrafoConocenos {
     @extend .ParrafoIndex
   }
+

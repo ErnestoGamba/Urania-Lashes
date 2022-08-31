@@ -25,13 +25,13 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
-    background-color: #7E5A9B;
+    background-color: map-get($coloresGenerales, moradomedio);
     font-family: 'Rubik', sans-serif;
     font-style: italic;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
-    color: beige;
+    color: map-get($coloresGenerales, marfil);
     font-size: 30px
   }
   
@@ -47,13 +47,13 @@ h1 {
     margin-right: auto;
     border-style: solid;
     border-width: 5px;
-    border-color: beige;
+    border-color: map-get($coloresGenerales, marfil);
     font-family: 'Rubik', sans-serif;
     font-style: italic;
-    background-color: pink;
+    background-color: map-get($coloresGenerales, rosa);
     border-radius: 20px;
     text-decoration: solid;
-    color: beige;
+    color: map-get($coloresGenerales, marfil);
     animation-name: animacionh2;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
@@ -62,37 +62,23 @@ h1 {
   
   @keyframes animacionh2 {
     50% {
-      background-color: rgb(238, 145, 222);
+      background-color: rosa;
     }
   }
   
   h3 {
-    color: #ffffff;
+    color: map-get($coloresGenerales, blanco);
     font-family: 'Rubik', sans-serif;
     font-style: italic;
   }
   
   h4 {
-    color: #ffffff;
+    color: map-get($coloresGenerales, blanco);
     font-family: 'Rubik', sans-serif;
     font-style: italic;
     margin-bottom: 2%;
   }
-  
-  .ParrafoIndex {
-    display: flex;
-    font-family: 'Rubik', sans-serif;
-    font-style: italic;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    color: beige;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
-     }
-  
+    
   a {
     text-decoration: none;
   }
@@ -111,8 +97,8 @@ h1 {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #7E5A9B;
-    border-color: $beige;
+    background-color: map-get($coloresGenerales, moradomedio) ;
+    border-color: map-get($coloresGenerales, marfil) ;
     border-width: 5px;
   }
 

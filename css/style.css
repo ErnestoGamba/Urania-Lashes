@@ -4,113 +4,6 @@
   box-sizing: border-box; }
 
 /*effect colors*/
-body {
-  background-image: url("../img/fondo2.jpg");
-  height: 100%;
-  background-size: cover;
-  padding: 1px;
-  gap: 0px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  grid-template-columns: auto;
-  grid-template-rows: auto; }
-
-h1 {
-  position: relative;
-  top: 1vh;
-  right: auto;
-  left: auto;
-  height: auto;
-  width: fit-content;
-  margin-top: 1.5%;
-  margin-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  background-color: #7E5A9B;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  text-transform: uppercase;
-  text-align: center;
-  color: beige;
-  font-size: 30px; }
-
-h2 {
-  display: iblock;
-  height: fit-content;
-  width: fit-content;
-  padding: 20px;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 5%;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 5px;
-  border-color: beige;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  background-color: pink;
-  border-radius: 20px;
-  text-decoration: solid;
-  color: beige;
-  animation-name: animacionh2;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate; }
-
-@keyframes animacionh2 {
-  50% {
-    background-color: #ee91de; } }
-
-h3 {
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic; }
-
-h4 {
-  color: #ffffff;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  margin-bottom: 2%; }
-
-.ParrafoIndex, .ParrafoConocenos {
-  display: flex;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  justify-content: center;
-  text-align: center;
-  font-weight: bold;
-  color: beige;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 50px;
-  padding-right: 50px; }
-
-a {
-  text-decoration: none; }
-
-ul {
-  list-style: none; }
-
-.FormularioContacto, .Turnero {
-  display: flex;
-  width: fit-content;
-  height: fit-content;
-  flex-direction: column;
-  padding: 20px;
-  margin-top: 10%;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7E5A9B;
-  border-color: beige;
-  border-width: 5px; }
-
-/*effect colors*/
-/*effect colors*/
 /*effect colors*/
 body {
   background-image: url("../img/fondo2.jpg");
@@ -171,31 +64,18 @@ h2 {
 
 @keyframes animacionh2 {
   50% {
-    background-color: #ee91de; } }
+    background-color: rosa; } }
 
 h3 {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Rubik', sans-serif;
   font-style: italic; }
 
 h4 {
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
   margin-bottom: 2%; }
-
-.ParrafoIndex, .ParrafoConocenos {
-  display: flex;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  justify-content: center;
-  text-align: center;
-  font-weight: bold;
-  color: beige;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 50px;
-  padding-right: 50px; }
 
 a {
   text-decoration: none; }
@@ -217,31 +97,7 @@ ul {
   border-color: beige;
   border-width: 5px; }
 
-.sectionchica {
-  display: iblock;
-  border-style: solid;
-  border-width: 5px;
-  border-color: beige;
-  text-align: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  height: fit-content;
-  width: 50%;
-  background-color: rgba(255, 165, 62, 0.945);
-  border-radius: 50px; }
-
-.TituloFormTurnos {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 0.3%;
-  font-family: 'Rubik', sans-serif;
-  font-size: larger;
-  font-weight: 700;
-  color: rgba(255, 165, 62, 0.945); }
-
+/*header*/
 .header {
   color: #FFFFFF;
   background-color: #c2b3d4;
@@ -254,7 +110,7 @@ ul {
     height: fit-content;
     width: fit-content;
     padding: 2px;
-    background-color: rgba(168, 47, 168, 0.438);
+    background-color: #7E5A9B;
     margin: 1px;
     border-color: #FFFFFF;
     border-style: solid;
@@ -273,26 +129,49 @@ ul {
   0% {
     background-color: #a179a5; } }
 
-.li {
-  align-self: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 20px;
-  margin-right: 20px;
-  display: inline-block; }
-
-.promos {
-  text-align: center;
-  background-color: pink;
-  padding: 20px;
-  width: fit-content;
+/*footer*/
+.footer {
+  position: relative;
   margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #FFFFFF;
+  height: 200px;
+  width: 100%;
+  background-color: #7E5A9B;
+  padding-bottom: 0px;
+  bottom: 0px;
+  grid-area: footer; }
+  .footer .footerlinks {
+    height: 50px;
+    width: 400px;
+    padding-left: 30px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px; }
+  .footer .footerdiv__ul {
+    text-align: start;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px; }
+  .footer .derechos {
+    text-align: end;
+    width: auto;
+    height: auto;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px; }
+
+/*effect colors*/
+.ParrafoIndex, .ParrafoConocenos {
+  display: flex;
   font-family: 'Rubik', sans-serif;
   font-style: italic;
-  border-radius: 20px; }
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  color: beige;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  padding-right: 50px; }
 
 .aside {
   font-family: 'Rubik', sans-serif;
@@ -338,7 +217,7 @@ ul {
       border-width: 5px;
       border-color: #FFFFFF;
       border-style: solid;
-      color: #550eda;
+      color: #7E5A9B;
       font-family: 'Rubik', sans-serif;
       font-style: italic; }
 
@@ -347,29 +226,6 @@ ul {
   justify-content: center;
   margin-top: 2%;
   padding: 3%; }
-
-/*cada pagina va a tener su propio scss con las partes que se repite (header, footer, etc. en la de el index o main)*/
-.body_conocenos {
-  background-image: url("../img/fondo2.jpg");
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.tablaprecios {
-  align-self: center; }
-
-.maparea {
-  display: block;
-  height: fit-content;
-  width: fit-content;
-  margin: auto;
-  padding-top: 1px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-width: 20px;
-  background-color: #7E5A9B; }
 
 .precioServicios {
   text-align: center;
@@ -383,33 +239,140 @@ ul {
   margin: 20px auto 20px auto;
   border-radius: 5px; }
 
-.footer {
+/*effect colors*/
+/*effect colors*/
+body {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  padding: 1px;
+  gap: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  grid-template-columns: auto;
+  grid-template-rows: auto; }
+
+h1 {
   position: relative;
-  margin-top: 20px;
-  height: 200px;
-  width: 100%;
+  top: 1vh;
+  right: auto;
+  left: auto;
+  height: auto;
+  width: fit-content;
+  margin-top: 1.5%;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
   background-color: #7E5A9B;
-  padding-bottom: 0px;
-  bottom: 0px;
-  grid-area: footer; }
-  .footer .footerlinks {
-    height: 50px;
-    width: 400px;
-    padding-left: 30px;
-    margin-top: 2px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px; }
-  .footer .footerdiv__ul {
-    text-align: start;
-    font-family: 'Rubik', sans-serif;
-    color: beige;
-    font-size: 15px; }
-  .footer .derechos {
-    text-align: end;
-    width: auto;
-    height: auto;
-    font-family: 'Rubik', sans-serif;
-    color: beige;
-    font-size: 12px; }
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: beige;
+  font-size: 30px; }
+
+h2 {
+  display: iblock;
+  height: fit-content;
+  width: fit-content;
+  padding: 20px;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  background-color: pink;
+  border-radius: 20px;
+  text-decoration: solid;
+  color: beige;
+  animation-name: animacionh2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes animacionh2 {
+  50% {
+    background-color: rosa; } }
+
+h3 {
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic; }
+
+h4 {
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic;
+  margin-bottom: 2%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.FormularioContacto, .Turnero {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7E5A9B;
+  border-color: beige;
+  border-width: 5px; }
+
+.body_conocenos {
+  background-image: url("../img/fondo2.jpg");
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.sectionchica {
+  display: iblock;
+  border-style: solid;
+  border-width: 5px;
+  border-color: beige;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  height: fit-content;
+  width: 50%;
+  background-color: rgba(255, 165, 62, 0.945);
+  border-radius: 50px; }
+
+.maparea {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-width: 20px;
+  background-color: #7E5A9B; }
+
+.TituloFormTurnos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.3%;
+  font-family: 'Rubik', sans-serif;
+  font-size: larger;
+  font-weight: 700;
+  color: rgba(255, 165, 62, 0.945); }

@@ -1,0 +1,13 @@
+.precioServicios {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: map-get($coloresGenerales, marfil);
+    background-color: map-get($coloresGenerales, rosa);
+    width: fit-content;
+    padding: 2px;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+  }
+  

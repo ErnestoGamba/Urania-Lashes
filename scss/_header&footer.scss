@@ -1,0 +1,80 @@
+  /*header*/
+
+.header {
+    color: map-get($coloresGenerales, blanco);
+    background-color: map-get($coloresGenerales, ligthpurple) ;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+  
+    .header__nav__ul__li {
+      position: relative;
+      display: inline-block;
+      height: fit-content;
+      width: fit-content;
+      padding: 2px;
+      background-color: map-get($coloresGenerales, moradomedio);
+      margin: 1px;
+      border-color: map-get($coloresGenerales, blanco);
+      border-style: solid;
+      font-family: 'Rubik', sans-serif;
+      border-radius: 20px;
+      text-decoration: none;
+      color: map-get($coloresGenerales, blanco);
+      animation-name: coloranchors;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+  
+      &:hover {
+        box-shadow: 0 0 35px $buttonshadowpurple;     
+      }
+    }
+  }
+  
+  @keyframes coloranchors {
+    0% {
+      background-color: $buttonanimationpurple;
+    }
+  }
+
+  
+/*footer*/
+
+.footer {
+    position: relative;
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    background-color: map-get($coloresGenerales, moradomedio);
+    padding-bottom: 0px;
+    bottom: 0px;
+    grid-area: footer;
+  
+    .footerlinks {
+      height: 50px;
+      width: 400px;
+      padding-left: 30px;
+      margin-top: 2px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 0px;
+    }
+  
+    .footerdiv__ul {
+      text-align: start;
+      font-family: 'Rubik', sans-serif;
+      color: map-get($coloresGenerales, beige);
+      font-size: 15px;
+    }
+  
+    .derechos {
+      text-align: end;
+      width: auto;
+      height: auto;
+      font-family: 'Rubik', sans-serif;
+      color: map-get($coloresGenerales, beige);
+      font-size: 12px;
+    }
+  }
