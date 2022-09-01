@@ -1,37 +1,41 @@
   /*header*/
 
 .header {
-    color: map-get($coloresGenerales, blanco);
-    background-color: map-get($coloresGenerales, ligthpurple) ;
+    background-color: #FFF2F8 ;
     position: sticky;
+    border-width: 100px;
     top: 0px;
     z-index: 10;
-  
+
     .header__nav__ul__li {
-      position: relative;
-      display: inline-block;
+      display: flex;
       height: fit-content;
       width: fit-content;
       padding: 2px;
-      background-color: map-get($coloresGenerales, moradomedio);
-      margin: 1px;
-      border-color: map-get($coloresGenerales, blanco);
-      border-style: solid;
+      margin: 10px;
+      border-radius: 20%;
       font-family: 'Rubik', sans-serif;
-      border-radius: 20px;
       text-decoration: none;
-      color: map-get($coloresGenerales, blanco);
+      color: purple;
+      /*
       animation-name: coloranchors;
       animation-duration: 1.5s;
-      animation-iteration-count: infinite;
+      animation-iteration-count: infinite; 
       animation-direction: alternate;
+      box-shadow: 0 0 50px $buttonshadowpurple; */
+
   
       &:hover {
-        box-shadow: 0 0 35px $buttonshadowpurple;     
-      }
+        box-shadow: none; 
+     }
     }
   }
   
+  .ale{
+    display:flex;
+    justify-content: end;
+    
+  }
   @keyframes coloranchors {
     0% {
       background-color: $buttonanimationpurple;
@@ -44,18 +48,22 @@
   background-color: red;
   border-radius: 50%;
   color: aqua;
+  background-image: linear-gradient(45deg, #7E5A9B, #c2b3d4,pink, );
   justify-content: center;
   align-items: center;  
 }
   
 /*footer*/
-
+main {
+  background-color: #ffff;
+  height: 100%;
+  width: 100% ;
+}
 .footer {
     position: relative;
-    margin-top: 20px;
     height: 200px;
     width: 100%;
-    background-color: map-get($coloresGenerales, moradomedio);
+    background-color: #FFF2F8;
     padding-bottom: 0px;
     bottom: 0px;
     grid-area: footer;

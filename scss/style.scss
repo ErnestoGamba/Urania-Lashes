@@ -1,8 +1,4 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box
-}
+
 
 @import "mixin";
 @import "colors";
@@ -15,3 +11,8 @@
 @import "turnos";
 
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
