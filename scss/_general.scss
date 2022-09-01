@@ -1,5 +1,5 @@
 @import "colors" ;
-
+/*
 body {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -11,8 +11,23 @@ body {
   background-size: cover;
   grid-template-columns: auto;
   grid-template-rows: auto;
-}
+} */
 
+body {
+  width: 100%;
+  height: 100vh;
+  color: #ffff ;
+  background-size:400% 400%;
+  background-image: linear-gradient(45deg, #7E5A9B, #c2b3d4,pink, );
+  background-attachment: fixed;
+  position: relative;
+  animation: AnimationBg 10s ease infinite;
+}
+@keyframes AnimationBg {
+  0% {background-position: 0 50%;} 
+  50% {background-position: 100% 50%;} 
+  100% {background-position: 0 50%;} 
+}
 h1 {
     position: relative;
     top: 1vh;

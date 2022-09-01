@@ -5,6 +5,7 @@
 
 /*effect colors*/
 /*effect colors*/
+/*
 body {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -15,7 +16,25 @@ body {
   background-position: center;
   background-size: cover;
   grid-template-columns: auto;
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+} */
+body {
+  width: 100%;
+  height: 100vh;
+  color: #ffff;
+  background-size: 400% 400%;
+  background-image: linear-gradient(45deg, #7E5A9B, #c2b3d4, pink);
+  background-attachment: fixed;
+  position: relative;
+  animation: AnimationBg 10s ease infinite; }
+
+@keyframes AnimationBg {
+  0% {
+    background-position: 0 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0 50%; } }
 
 h1 {
   position: relative;
@@ -129,6 +148,16 @@ ul {
   0% {
     background-color: #a179a5; } }
 
+.LogoUl {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  color: aqua;
+  justify-content: center;
+  align-items: center; }
+
 /*footer*/
 .footer {
   position: relative;
@@ -241,6 +270,7 @@ ul {
 
 /*effect colors*/
 /*effect colors*/
+/*
 body {
   background-image: url("../img/fondo2.jpg");
   height: 100%;
@@ -251,7 +281,25 @@ body {
   background-position: center;
   background-size: cover;
   grid-template-columns: auto;
-  grid-template-rows: auto; }
+  grid-template-rows: auto;
+} */
+body {
+  width: 100%;
+  height: 100vh;
+  color: #ffff;
+  background-size: 400% 400%;
+  background-image: linear-gradient(45deg, #7E5A9B, #c2b3d4, pink);
+  background-attachment: fixed;
+  position: relative;
+  animation: AnimationBg 10s ease infinite; }
+
+@keyframes AnimationBg {
+  0% {
+    background-position: 0 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0 50%; } }
 
 h1 {
   position: relative;
@@ -332,13 +380,6 @@ ul {
   background-color: #7E5A9B;
   border-color: beige;
   border-width: 5px; }
-
-.body_conocenos {
-  background-image: url("../img/fondo2.jpg");
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
 
 .sectionchica {
   display: iblock;

@@ -37,7 +37,16 @@
       background-color: $buttonanimationpurple;
     }
   }
-
+.LogoUl {
+  display:flex ;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  color: aqua;
+  justify-content: center;
+  align-items: center;  
+}
   
 /*footer*/
 
