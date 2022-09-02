@@ -34,15 +34,16 @@
     <main class="MainTurnos">    
     <h1>Consuta de turnos</h1>
     <!--aca la idea seria hacer un formulario con php que te indicaria los turnos disponibles dentro de el plazo y te permite reservar por ahora debido a las limitaciones pongo unicamente los formularios-->
+    <div>
+        <p class="Pform">ingresa tu disponibilidad, te mandamos los turnos disponibles por whatassapp y coordinas con nosotras!</p>
+    </div>
     <form action="">
         <fieldset class="Turnero">
-            <div>
-                <legend class="TituloFormTurnos">ingresa tu disponibilidad y te contamos los turnos disponibles por whatassapp!</legend>
-         
-            <!--mas adelante la idea es que en un select elijas una profesional y en segundo salgan solo los servicios que ella presta-->
+            <div>             
+                     <!--mas adelante la idea es que en un select elijas una profesional y en segundo salgan solo los servicios que ella presta-->
             <div>
                 <!--mas adelante incluire mas servicios-->
-                <label for="">Servicios:</label>
+                <label class="campo" for="">Servicios</label>
                 <select class="campo2" name="Servicios:" id="">
                     <optgroup label="urania">
                         <option value="servicio1" selected>servicio1</option>
@@ -73,13 +74,13 @@
             </div>
             <div>
                 <!--no se porque no se lee esta label y la de abajo si-->
-                <label for="">desde</label>
+                <label class="campo" for="">desde</label>
                 <input class="campo2" type="date" required>
                 <input class="campo2" type="time" required>
             </div>
             <div>
-                <label for="">Hasta</label>
-                <input class="campo2" type="date" required>
+                <label class="campo" for="">Hasta</label>
+                <input class="campo2" placeholder="fecha" type="date" required>
                 <input class="campo2" type="time" required>
             </div>
             <div>
@@ -91,7 +92,7 @@
                 <textarea placeholder="Escribi tu consulta aquí" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
             <div>
-                <input type="submit" value="Consulta!">
+                <input class="enviar" type="submit" value="Consulta!">
             </div>
         </fieldset>
     </form>

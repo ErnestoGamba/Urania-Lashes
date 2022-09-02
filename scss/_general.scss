@@ -23,11 +23,7 @@ body {
   animation: AnimationBg 5s ease infinite;
   padding:0px !important ; 
 }
-main {
-  background-color: #ffff;
-  height: 100%;
-  width: 100% ;
-}
+
 @keyframes AnimationBg {
   0% {background-position: 0 50%;} 
   50% {background-position: 100% 50%;} 
