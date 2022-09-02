@@ -63,15 +63,19 @@ main {
 }
 
 .footer {
+    display: flex;
     position: relative;
     height: 200px;
-    width: 100%;
+    width: 100%; 
     background-color: #FFA6D2;
     border-color:  #FFA6D2 ;
     border-width: 1px ;
     padding-bottom: 0px;
     bottom: 0px;
-    grid-area: footer;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
   
     .footerlinks {
       height: 50px;
@@ -85,6 +89,7 @@ main {
     }
   
     .footerdiv__ul {
+      display:flex;
       text-align: start;
       font-family: 'Rubik', sans-serif;
       color: map-get($coloresGenerales, beige);
@@ -92,6 +97,7 @@ main {
     }
   
     .derechos {
+      display:flex;
       text-align: end;
       width: auto;
       height: auto;
