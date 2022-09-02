@@ -1,9 +1,11 @@
   /*header*/
 
 .header {
-    background-color: #FFF2F8 ;
+    background-color: #FFA6D2 ;
+    border-color: #FFA6D2;
+    border-style: solid;
+    border-width: 1px;
     position: sticky;
-    border-width: 100px;
     top: 0px;
     z-index: 10;
 
@@ -55,15 +57,18 @@
   
 /*footer*/
 main {
-  background-color: #ffff;
+  background-color: #FFB19A;
   height: 100%;
   width: 100% ;
 }
+
 .footer {
     position: relative;
     height: 200px;
     width: 100%;
-    background-color: #FFF2F8;
+    background-color: #FFA6D2;
+    border-color:  #FFA6D2 ;
+    border-width: 1px ;
     padding-bottom: 0px;
     bottom: 0px;
     grid-area: footer;

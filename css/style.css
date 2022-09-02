@@ -104,9 +104,11 @@ ul {
 
 /*header*/
 .header {
-  background-color: #FFF2F8;
+  background-color: #FFA6D2;
+  border-color: #FFA6D2;
+  border-style: solid;
+  border-width: 1px;
   position: sticky;
-  border-width: 100px;
   top: 0px;
   z-index: 10; }
   .header .header__nav__ul__li {
@@ -149,7 +151,7 @@ ul {
 
 /*footer*/
 main {
-  background-color: #ffff;
+  background-color: #FFB19A;
   height: 100%;
   width: 100%; }
 
@@ -157,7 +159,9 @@ main {
   position: relative;
   height: 200px;
   width: 100%;
-  background-color: #FFF2F8;
+  background-color: #FFA6D2;
+  border-color: #FFA6D2;
+  border-width: 1px;
   padding-bottom: 0px;
   bottom: 0px;
   grid-area: footer; }
@@ -428,6 +432,9 @@ ul {
   background-color: #ffd1c3;
   border-color: beige;
   border-width: 60px; }
+
+.card {
+  background-color: #ffd1c3 !important; }
 
 .TituloFormTurnos {
   display: flex;
