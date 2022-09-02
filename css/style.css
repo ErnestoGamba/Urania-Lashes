@@ -151,7 +151,7 @@ ul {
 
 /*footer*/
 main {
-  background-color: #FFB19A;
+  background-color: #D4EFFF !important;
   height: 100%;
   width: 100%; }
 
@@ -386,8 +386,6 @@ ul {
     border-width: 5px;
     text-align: center;
     margin-top: 10vh;
-    margin-left: auto;
-    margin-right: auto;
     padding: 15px;
     height: fit-content;
     width: 50%;
@@ -428,12 +426,12 @@ ul {
   border-width: 20px;
   background-color: #7E5A9B; }
 
-.FormularioContacto, .Turnero {
+.FormularioContacto {
   display: flex;
   width: fit-content;
   height: fit-content;
   flex-direction: column;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
@@ -441,14 +439,53 @@ ul {
   border-color: beige;
   border-width: 60px; }
 
+/*
 .TituloFormTurnos {
+    display: flex;   
+    justify-content: center;
+    padding-bottom: 0.3%;
+    
+    @include FuenteTituloSm ;
+}*/
+/*
+.Turnero {
+    @extend .FormularioContacto
+
+   }*/
+.Turnero {
   display: flex;
-  justify-content: center;
-  padding-bottom: 0.3%;
-  font-family: 'Rubik', sans-serif;
-  font-size: larger;
-  font-weight: 700;
-  color: #9affa7; }
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  background-color: #941c58;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  Color: white; }
+  .Turnero .TituloFormTurnos {
+    font-size: 22px;
+    margin-bottom: 20px; }
+
+.MainTurnos {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+.campo {
+  background-color: aquamarine; }
+
+.campo2 {
+  width: 100%;
+  background-color: #0d5668;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 16px;
+  border: 1px solid red;
+  font-family: calibri;
+  font-size: 18px;
+  writing-mode: horizontal-tb !important; }
 
 * {
   margin: 0px;
