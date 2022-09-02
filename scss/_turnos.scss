@@ -5,6 +5,10 @@
     display: flex;   
     justify-content: center;
     padding-bottom: 0.3%;
+    
     @include FuenteTituloSm ;
 }
 
+.Turnero {
+    @extend .FormularioContacto
+   }

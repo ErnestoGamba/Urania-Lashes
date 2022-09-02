@@ -102,20 +102,6 @@ a {
 ul {
   list-style: none; }
 
-.FormularioContacto, .Turnero {
-  display: flex;
-  width: fit-content;
-  height: fit-content;
-  flex-direction: column;
-  padding: 20px;
-  margin-top: 10%;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7E5A9B;
-  border-color: beige;
-  border-width: 5px; }
-
 /*header*/
 .header {
   background-color: #FFF2F8;
@@ -203,7 +189,8 @@ main {
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  color: beige;
+  font-size: xx-large;
+  color: #7547FD;
   margin-top: 40px;
   margin-bottom: 40px;
   padding-left: 50px;
@@ -379,23 +366,13 @@ a {
 ul {
   list-style: none; }
 
-.FormularioContacto, .Turnero {
+.perfiles {
   display: flex;
-  width: fit-content;
-  height: fit-content;
-  flex-direction: column;
-  padding: 20px;
-  margin-top: 10%;
-  margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #7E5A9B;
-  border-color: beige;
-  border-width: 5px; }
+  justify-content: space-evenly; }
 
 @media all and (max-width: 5000px) {
   .sectionchica {
-    display: iblock;
+    display: none;
     border-style: solid;
     border-width: 5px;
     text-align: center;
@@ -409,7 +386,7 @@ ul {
 
 @media all and (max-width: 576px) {
   .sectionchica {
-    display: iblock;
+    display: none;
     border-style: solid;
     border-width: 5px;
     border-color: beige;
@@ -424,6 +401,9 @@ ul {
     background-color: #ff5100;
     border-radius: 50px; } }
 
+.card {
+  background-color: #7547FD; }
+
 .maparea {
   display: block;
   height: fit-content;
@@ -436,6 +416,19 @@ ul {
   border-width: 20px;
   background-color: #7E5A9B; }
 
+.FormularioContacto, .Turnero {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  flex-direction: column;
+  padding-bottom: 20px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffd1c3;
+  border-color: beige;
+  border-width: 60px; }
+
 .TituloFormTurnos {
   display: flex;
   justify-content: center;
@@ -443,7 +436,7 @@ ul {
   font-family: 'Rubik', sans-serif;
   font-size: larger;
   font-weight: 700;
-  color: rgba(255, 165, 62, 0.945); }
+  color: #9affa7; }
 
 * {
   margin: 0px;

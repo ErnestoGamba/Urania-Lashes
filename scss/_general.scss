@@ -108,21 +108,5 @@ h1 {
     list-style: none;
   }
   
-  .FormularioContacto{
-    display: flex;
-    width: fit-content;
-    height: fit-content;
-    flex-direction: column;
-    padding: 20px;
-    margin-top: 10%;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: map-get($coloresGenerales, moradomedio) ;
-    border-color: map-get($coloresGenerales, marfil) ;
-    border-width: 5px;
-  }
+ 
 
- .Turnero {
-  @extend .FormularioContacto
- }

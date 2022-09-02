@@ -10,3 +10,17 @@
     border-width: 20px;
     background-color: map-get($coloresGenerales, moradomedio) ;
   }
+
+  .FormularioContacto{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+   padding-bottom: 20px;
+    margin-top: 10%;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd1c3 ;
+    border-color: map-get($coloresGenerales, marfil) ;
+    border-width: 60px;
+  }
