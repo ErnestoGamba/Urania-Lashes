@@ -14,9 +14,11 @@
 
    }*/
 
-.Pform {
+.PTurnos {
     display: flex;
     color: #622C9E;
+    background-color: #c2b3d48a ;
+    width: 100% ;
     text-align: center;
     font-size: 30px !important;
     @extend .campo
@@ -26,9 +28,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 800px;
+    text-align: end;
+    justify-content: center !important;
+    width: 600px;
     background-color: #715C8A;
-    padding: 20px;
+    padding: 5px;
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
@@ -36,6 +40,7 @@
     Color: white;
 
     .TituloFormTurnos {
+        font-family: calibri;
         font-size: 22px;
         margin-bottom: 20px;
     }
@@ -64,11 +69,15 @@
     border-color: #FFFF;
     font-size: 18px;
     writing-mode: horizontal-tb !important;
+    &:hover {
+        box-shadow: 0px 0px 20px #c2b3d4 !important ; 
+       }
 
 
 }
 
 .enviar {
+    display: flex;
     width: 120px;
     background-color: #8569ab;
     border: 0;
@@ -81,4 +90,6 @@
     font-size: 16px;
     font-family: calibri;
     font-weight: 600;
+    justify-content: center;
+    align-self: center;
 }

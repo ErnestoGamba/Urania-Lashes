@@ -254,17 +254,36 @@ main {
   margin-top: 2%;
   padding: 3%; }
 
-.precioServicios {
-  text-align: center;
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  text-align: center;
-  color: beige;
-  background-color: pink;
-  width: fit-content;
-  padding: 2px;
-  margin: 20px auto 20px auto;
-  border-radius: 5px; }
+.ContainerTablaPrecios {
+  background-color: aquamarine;
+  width: 600px;
+  margin: 150px auto;
+  /*
+    .TablaServicios{
+      background-color: white;
+      font-family: calibri;
+      text-align: left;
+        } */ }
+  .ContainerTablaPrecios .TablaPrecios {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    font-family: calibri;
+    border-collapse: collapse;
+    border-radius: 5px; }
+
+Thead {
+  background-color: #FFB4C2;
+  color: white; }
+
+th, td {
+  padding: 20px; }
+
+tr:nth-child(even) {
+  background-color: #ffecf0; }
+
+.apa {
+  text-align: right; }
 
 /*effect colors*/
 /*effect colors*/
@@ -442,9 +461,11 @@ ul {
     @extend .FormularioContacto
 
    }*/
-.Pform {
+.PTurnos {
   display: flex;
   color: #622C9E;
+  background-color: #c2b3d48a;
+  width: 100%;
   text-align: center;
   font-size: 30px !important; }
 
@@ -452,15 +473,18 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
+  text-align: end;
+  justify-content: center !important;
+  width: 600px;
   background-color: #715C8A;
-  padding: 20px;
+  padding: 5px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
   font-family: calibri;
   Color: white; }
   .Turnero .TituloFormTurnos {
+    font-family: calibri;
     font-size: 22px;
     margin-bottom: 20px; }
 
@@ -469,7 +493,7 @@ ul {
   flex-direction: column;
   padding: 20px; }
 
-.campo, .Pform {
+.campo, .PTurnos {
   font-family: calibri;
   font-size: 20px;
   font-weight: 600; }
@@ -484,8 +508,11 @@ ul {
   border-color: #FFFF;
   font-size: 18px;
   writing-mode: horizontal-tb !important; }
+  .campo2:hover {
+    box-shadow: 0px 0px 20px #c2b3d4 !important; }
 
 .enviar {
+  display: flex;
   width: 120px;
   background-color: #8569ab;
   border: 0;
@@ -497,7 +524,9 @@ ul {
   margin-bottom: 10px;
   font-size: 16px;
   font-family: calibri;
-  font-weight: 600; }
+  font-weight: 600;
+  justify-content: center;
+  align-self: center; }
 
 * {
   margin: 0px;
