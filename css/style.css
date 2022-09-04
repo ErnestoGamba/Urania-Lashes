@@ -254,10 +254,22 @@ main {
   margin-top: 2%;
   padding: 3%; }
 
+.ZonaTablas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around; }
+
 .ContainerTablaPrecios {
-  background-color: aquamarine;
-  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #e4a3f1;
+  width: 400px;
+  height: fit-content;
   margin: 150px auto;
+  border-radius: 15px;
   /*
     .TablaServicios{
       background-color: white;
@@ -265,25 +277,36 @@ main {
       text-align: left;
         } */ }
   .ContainerTablaPrecios .TablaPrecios {
-    width: 100%;
+    width: 400px;
     background-color: white;
     text-align: left;
     font-family: calibri;
-    border-collapse: collapse;
-    border-radius: 5px; }
+    border-collapse: collapse; }
 
-Thead {
+Th {
   background-color: #FFB4C2;
-  color: white; }
+  font-size: 20px;
+  font-weight: 900;
+  color: white;
+  padding: 20px; }
 
-th, td {
+td {
+  font-weight: 500;
+  font-family: calibri;
   padding: 20px; }
 
 tr:nth-child(even) {
   background-color: #ffecf0; }
 
+.link {
+  color: white;
+  text-decoration: none; }
+
 .apa {
   text-align: right; }
+
+.TituloTablaPrecios {
+  align-self: flex-end; }
 
 /*effect colors*/
 /*effect colors*/
