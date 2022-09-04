@@ -452,31 +452,84 @@ ul {
   .card {
     display: none !important; } }
 
+/*
 .maparea {
-  display: block;
-  height: fit-content;
-  width: fit-content;
-  margin: auto;
-  padding-top: 1px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-width: 20px;
-  background-color: #7E5A9B; }
-
-.FormularioContacto {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: rgb(255, 72, 0);
+    background-color: map-get($coloresGenerales, moradomedio) ;
+  }*/
+.forms {
   display: flex;
-  width: fit-content;
-  height: fit-content;
   flex-direction: column;
-  padding-bottom: 0px;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffd1c3;
-  border-color: beige;
-  border-width: 60px; }
+  align-self: start;
+  width: 80%;
+  margin-left: 20px;
+  background-color: black; }
 
+.TituloFormContacto {
+  font-family: calibri;
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.FormContacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: auto;
+  background-color: #715C8A;
+  padding: 0px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  Color: white; }
+
+.TextAreaCont {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(127, 255, 212, 0.507); }
+
+.campos {
+  width: 700px;
+  display: flex;
+  flex-direction: row; }
+
+/*
+  .FormularioContacto{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: column;
+   padding-bottom: 0px;
+    margin-top: 10%;  
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd1c3 ;
+    border-color: map-get($coloresGenerales, marfil) ;
+    border-width: 60px;
+  }
+  */
+/* yt video */
+/*
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 800px;
+    width: 800px;
+}
+*/
 /*
 .TituloFormTurnos {
     display: flex;   
