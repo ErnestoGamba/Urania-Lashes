@@ -14,19 +14,8 @@
     border-color: rgb(255, 72, 0);
     background-color: map-get($coloresGenerales, moradomedio) ;
   }*/
-  .forms {
-    display: flex;
-    flex-direction: column;
-    align-self: start;
-    width: 80%;
-    margin-left: 20px;
-    background-color: black;
-  }
-  .TituloFormContacto {
-    font-family: calibri;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
+  
+ 
   .FormContacto {
     display: flex;
     align-items: center;
@@ -41,17 +30,46 @@
     border-radius: 4px;
     font-family: calibri;
     Color: white;
+    .TituloFormContacto {
+      font-family: calibri;
+      font-size: 22px;
+      margin-bottom: 20px;
   }
-.TextAreaCont {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(127, 255, 212, 0.507);
-}
   .campos {
-    width: 700px;
     display: flex;
+    flex-wrap: wrap;
+    background-color: #715C8A;
+    padding: auto;
+    width:auto;   
     flex-direction: row;
+    justify-content: center;
+    .forms {
+      display: flex;
+      flex-direction: column;
+      align-self: start;
+      width: 350px;
+      background-color: #715C8A;
+    }
+    .TextAreaCont {
+      display: flex;
+      width:350px ;
+      text-align: center;
+      flex-direction: column;
+      background-color: #715C8A;
+      .LabelTextAreaCont{
+         margin-bottom: 5px;
+      }
+    }
   }
+  .BotonFormContacto {
+    @extend .enviar
+  }
+  }
+
+
+
+
+
   /*
   .FormularioContacto{
     display: flex;
