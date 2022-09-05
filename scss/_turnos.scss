@@ -13,47 +13,138 @@
     @extend .FormularioContacto
 
    }*/
-   .MainTurnos {
+.MainTurnos {
     display: flex;
     flex-direction: column;
-     }
+}
+
+.PTurnos {
+    display: flex;
+    color: #622C9E;
+    background-color: #c2b3d48a;
+    width: 100%;
+    text-align: center;
+    font-size: 30px !important;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Turnero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center !important;
+    width: 600px;
+    background-color: #715C8A;
+    padding: 5px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    Color: white;
+}
+
+.TituloFormTurnos {
+    font-family: calibri;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.campo {
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.campo2 {
+    width: 100%;
+    background-color: #FFFF;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    font-family: calibri;
+    border-color: #FFFF;
+    font-size: 18px;
+    writing-mode: horizontal-tb !important;
+
+    &:hover {
+        box-shadow: 0px 0px 20px #c2b3d4 !important;
+    }
+
+
+}
+
+.enviar {
+    display: flex;
+    width: 120px;
+    background-color: #8569ab;
+    border: 0;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    padding: 10px;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: calibri;
+    font-weight: 600;
+    justify-content: center;
+    align-self: center;
+}
+
+@media all and (max-width:618px) {
+
+    .MainTurnos {
+        display: flex;
+        flex-direction: column;
+    }
+
     .PTurnos {
         display: flex;
         color: #622C9E;
-        background-color: #c2b3d48a ;
-        width: 100% ;
+        background-color: #c2b3d48a;
+        width: 100%;
         text-align: center;
         font-size: 30px !important;
         font-family: calibri;
-                font-size: 20px;
-                font-weight: 600;
+        font-size: 20px;
+        font-weight: 600;
     }
+
     .Turnero {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: end;
-        justify-content: center !important;
-        width: 600px;
-        background-color: #715C8A;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #fc00a8;
         padding: 5px;
         margin: auto;
         margin-top: 100px;
-        border-radius: 4px;
-        font-family: calibri ;
+        font-family: calibri;
         Color: white;
     }
+
     .TituloFormTurnos {
         font-family: calibri;
         font-size: 22px;
         margin-bottom: 20px;
     }
- 
+
+
+
+
+
+
     .campo {
         font-family: calibri;
         font-size: 20px;
         font-weight: 600;
     }
+
     .campo2 {
         width: 100%;
         background-color: #FFFF;
@@ -64,12 +155,14 @@
         border-color: #FFFF;
         font-size: 18px;
         writing-mode: horizontal-tb !important;
+
         &:hover {
-            box-shadow: 0px 0px 20px #c2b3d4 !important ; 
-           }
-    
-    
+            box-shadow: 0px 0px 20px #c2b3d4 !important;
+        }
+
+
     }
+
     .enviar {
         display: flex;
         width: 120px;
@@ -87,91 +180,10 @@
         justify-content: center;
         align-self: center;
     }
-    @media all and (max-width:618px){
-
-        .MainTurnos {
-            display: flex;
-            flex-direction: column;
-             }
-            .PTurnos {
-                display: flex;
-                color: #622C9E;
-                background-color: #c2b3d48a ;
-                width: 100% ;
-                text-align: center;
-                font-size: 30px !important;
-                font-family: calibri;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            .Turnero {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: end;
-                justify-content: center !important;
-                width: 100%;
-                background-color: #fc00a8;
-                padding: 5px;
-                margin: auto;
-                margin-top: 100px;
-                border-radius: 4px;
-                font-family: calibri ;
-                Color: white;
-            }
-            .TituloFormTurnos {
-                font-family: calibri;
-                font-size: 22px;
-                margin-bottom: 20px;
-            }
-        
-        
-        
-        
-        
-           
-            .campo {
-                font-family: calibri;
-                font-size: 20px;
-                font-weight: 600;
-            }
-            .campo2 {
-                width: 100%;
-                background-color: #FFFF;
-                padding: 10px;
-                border-radius: 3px;
-                margin-bottom: 16px;
-                font-family: calibri;
-                border-color: #FFFF;
-                font-size: 18px;
-                writing-mode: horizontal-tb !important;
-                &:hover {
-                    box-shadow: 0px 0px 20px #c2b3d4 !important ; 
-                   }
-            
-            
-            }
-            .enviar {
-                display: flex;
-                width: 120px;
-                background-color: #8569ab;
-                border: 0;
-                letter-spacing: 1px;
-                border-radius: 4px;
-                padding: 10px;
-                color: #ffff;
-                margin-top: 10px;
-                margin-bottom: 10px;
-                font-size: 16px;
-                font-family: calibri;
-                font-weight: 600;
-                justify-content: center;
-                align-self: center;
-            }
 
 
 
 
 
 
-    }
+}

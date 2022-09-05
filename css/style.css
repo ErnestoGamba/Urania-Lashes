@@ -153,8 +153,11 @@ main {
 /*footer*/
 .footer {
   display: flex;
+  flex-direction: column;
   position: relative;
-  height: 200px;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
   width: 100%;
   background-color: #FFA6D2;
   border-color: #FFA6D2;
@@ -162,28 +165,37 @@ main {
   padding-bottom: 0px;
   bottom: 0px;
   align-items: center;
-  justify-content: center;
   flex-direction: column; }
   .footer .footerlinks {
-    height: 50px;
-    width: 400px;
-    padding-left: 30px;
-    margin-top: 2px;
-    margin-bottom: 20px;
+    display: flex;
+    height: auto;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 0px; }
+  .footer .footerdiv {
+    display: flex;
+    justify-content: center;
+    background-color: aqua; }
   .footer .footerdiv__ul {
     display: flex;
-    text-align: start;
+    width: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
+    color: #FFFF;
     font-size: 15px; }
   .footer .derechos {
     display: flex;
-    text-align: end;
+    justify-content: center;
+    text-align: center;
     width: auto;
     height: auto;
     font-family: 'Rubik', sans-serif;
+    color: #FFFF;
     font-size: 12px; }
 
 /*effect colors*/
@@ -265,7 +277,8 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-bottom: 0px; }
 
 .ContainerTablaPrecios {
   text-align: center;
@@ -274,7 +287,6 @@ main {
   background-color: #e4a3f1;
   width: 400px;
   height: fit-content;
-  margin: 150px auto;
   border-radius: 15px;
   margin: 5% 20px 5% 20px;
   /*
@@ -591,7 +603,7 @@ ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: end;
+  text-align: center;
   justify-content: center !important;
   width: 600px;
   background-color: #715C8A;
@@ -660,14 +672,13 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: end;
-    justify-content: center !important;
+    text-align: center;
+    justify-content: center;
     width: 100%;
     background-color: #fc00a8;
     padding: 5px;
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
     font-family: calibri;
     Color: white; }
   .TituloFormTurnos {

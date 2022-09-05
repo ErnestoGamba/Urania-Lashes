@@ -67,8 +67,11 @@ main {
 
 .footer {
     display: flex;
+    flex-direction: column;
     position: relative;
-    height: 200px;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
     width: 100%; 
     background-color: #FFA6D2;
     border-color:  #FFA6D2 ;
@@ -76,36 +79,45 @@ main {
     padding-bottom: 0px;
     bottom: 0px;
     align-items: center;
-    justify-content: center;
+    
     flex-direction: column;
     
   
     .footerlinks {
-      height: 50px;
-      width: 400px;
-      padding-left: 30px;
-      margin-top: 2px;
-      margin-bottom: 20px;
+      display: flex;
+      height: auto;
+      width: auto;     
+      margin-top: auto;
+      margin-bottom: auto;
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 0px;
     }
-  
-    .footerdiv__ul {
-      display:flex;
-      text-align: start;
-      font-family: 'Rubik', sans-serif;
-      color: map-get($coloresGenerales, beige);
-      font-size: 15px;
+    .footerdiv{
+      display: flex;
+      justify-content: center;
+background-color: aqua;
     }
+    .footerdiv__ul {
+      display:flex;      
+      width: 500px;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center;
+      font-family: 'Rubik', sans-serif;
+      color: #FFFF;
+      font-size: 15px;
+    
+      }  
   
     .derechos {
       display:flex;
-      text-align: end;
+      justify-content: center;
+      text-align: center;
       width: auto;
       height: auto;
       font-family: 'Rubik', sans-serif;
-      color: map-get($coloresGenerales, beige);
+      color: #FFFF;
       font-size: 12px;
     }
   }
