@@ -64,18 +64,36 @@
       margin: auto;
 
       .LabelTextAreaCont {
-        @extend .campo;
+        font-family: calibri;
+                font-size: 20px;
+                font-weight: 600;
         margin-bottom: 5px;
       }
 
       .CampoTexto {
-        @extend .campo;
+        font-family: calibri;
+                font-size: 20px;
+                font-weight: 600;
       }
     }
   }
 
   .BotonFormContacto {
-    @extend .enviar;
+    display: flex;
+                width: 120px;
+                background-color: #8569ab;
+                border: 0;
+                letter-spacing: 1px;
+                border-radius: 4px;
+                padding: 10px;
+                color: #ffff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 16px;
+                font-family: calibri;
+                font-weight: 600;
+                justify-content: center;
+                align-self: center;
   }
 }
 
