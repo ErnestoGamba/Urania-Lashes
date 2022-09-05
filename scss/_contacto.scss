@@ -14,63 +14,85 @@
     border-color: rgb(255, 72, 0);
     background-color: map-get($coloresGenerales, moradomedio) ;
   }*/
-  
- 
-  .FormContacto {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: start;
-    width: auto;
-    background-color: #715C8A;
-    padding: 0px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
+
+
+.FormContacto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: start;
+  width: fit-content;
+  background-color: #715C8A;
+  padding: 20px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: calibri;
+  Color: white;
+
+  .TituloFormContacto {
     font-family: calibri;
-    Color: white;
-    .TituloFormContacto {
-      font-family: calibri;
-      font-size: 22px;
-      margin-bottom: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
   }
+
   .campos {
     display: flex;
     flex-wrap: wrap;
     background-color: #715C8A;
     padding: auto;
-    width:auto;   
+    width: auto;
     flex-direction: row;
     justify-content: center;
+
     .forms {
       display: flex;
       flex-direction: column;
       align-self: start;
+      margin-right: 20px;
       width: 350px;
       background-color: #715C8A;
     }
+
     .TextAreaCont {
       display: flex;
-      width:350px ;
+      width: 350px;
       text-align: center;
       flex-direction: column;
       background-color: #715C8A;
-      .LabelTextAreaCont{
-         margin-bottom: 5px;
+      margin: auto;
+
+      .LabelTextAreaCont {
+        @extend .campo;
+        margin-bottom: 5px;
+      }
+
+      .CampoTexto {
+        @extend .campo;
       }
     }
   }
+
   .BotonFormContacto {
-    @extend .enviar
+    @extend .enviar;
   }
-  }
+}
 
 
 
 
 
-  /*
+
+
+
+
+
+
+
+
+
+/*
   .FormularioContacto{
     display: flex;
     width: fit-content;
@@ -85,7 +107,7 @@
     border-width: 60px;
   }
   */
-  /* yt video */
+/* yt video */
 
 /*
   .gmap_canvas {
@@ -95,4 +117,3 @@
     width: 800px;
 }
 */
-
