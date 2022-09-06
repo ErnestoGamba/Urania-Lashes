@@ -111,7 +111,6 @@ ul {
     height: fit-content;
     width: fit-content;
     padding: 2px;
-    margin: 10px;
     border-radius: 20%;
     font-family: 'Rubik', sans-serif;
     text-decoration: none;
@@ -181,7 +180,7 @@ main {
     background-color: aqua; }
   .footer .footerdiv__ul {
     display: flex;
-    width: 450px;
+    width: 200px;
     align-items: center;
     justify-content: flex-start;
     text-align: center;

@@ -14,8 +14,7 @@
       height: fit-content;
       width: fit-content;
       padding: 2px;
-      margin: 10px;
-      border-radius: 20%;
+           border-radius: 20%;
       font-family: 'Rubik', sans-serif;
       text-decoration: none;
       color: purple;
@@ -60,7 +59,7 @@ main {
   height: 100%;
   width: 100% ;
   padding-bottom: 50px ;
-  ;  
+  
 }
 
 /*footer*/
@@ -100,7 +99,7 @@ background-color: aqua;
     }
     .footerdiv__ul {
       display:flex;      
-      width: 450px;
+      width: 200px;
       align-items: center;
       justify-content: flex-start;
       text-align: center;
