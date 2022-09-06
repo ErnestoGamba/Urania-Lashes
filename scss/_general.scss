@@ -122,5 +122,34 @@ h1 {
     list-style: none;
   }
   
- 
+  .PTitulos{
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 
+@media all and (max-width:618px) { 
+  .PTitulos{
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}

@@ -116,6 +116,35 @@ a {
 ul {
   list-style: none; }
 
+.PTitulos {
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+@media all and (max-width: 618px) {
+  .PTitulos {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px; } }
+
 /*header*/
 .header {
   background-color: #FFA6D2;
@@ -254,6 +283,10 @@ main {
 
 /*effect colors*/
 .ContainerTitulos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #ff758e;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -620,6 +653,35 @@ a {
 ul {
   list-style: none; }
 
+.PTitulos {
+  display: flex;
+  font-family: 'Space Mono', monospace;
+  font-style: italic;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
+@media all and (max-width: 618px) {
+  .PTitulos {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px; } }
+
 .perfiles {
   display: flex;
   justify-content: space-evenly; }
@@ -813,20 +875,6 @@ ul {
     font-size: 20px;
     font-weight: 600;
 }*/
-.PTurnos {
-  display: flex;
-  font-family: 'Space Mono', monospace;
-  font-style: italic;
-  justify-content: center;
-  text-align: center;
-  font-weight: bold;
-  font-size: 25px;
-  color: #FFFF;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-left: 50px;
-  padding-right: 50px; }
-
 .Turnero {
   display: flex;
   flex-direction: column;
@@ -837,7 +885,7 @@ ul {
   background-color: #715C8A;
   padding: 5px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
   border-radius: 4px;
   font-family: calibri;
   Color: white; }
@@ -896,7 +944,7 @@ ul {
     background-color: #715C8A;
     padding: 5px;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     font-family: calibri;
     Color: white; }
   .TituloFormTurnos {
