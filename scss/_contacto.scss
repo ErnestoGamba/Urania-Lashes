@@ -31,6 +31,8 @@
   font-family: calibri;
   Color: white;
 
+}
+
   .TituloFormContacto {
     font-family: calibri;
     font-size: 22px;
@@ -44,40 +46,43 @@
     padding: auto;
     width: auto;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
 
-    .forms {
-      background-color: aquamarine;
-      display: flex;
-      flex-direction: column;
-      margin-right: 20px;
-      width: 350px;
-      background-color: #715C8A;
-    }
+    
+  }
+  .forms {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-right: 20px;
+    width: 350px;
+    background-color: #715C8A;
+  }
 
-    .TextAreaCont {
-      display: flex;
-      flex-direction: column;      
-      width: 350px;
-      text-align: center;
-      flex-direction: column;
-      background-color: #715C8A;
-      
+  .TextAreaCont {
+    display: flex;
+    flex-direction: column;      
+    width: 350px;
+    text-align: center;
+    flex-direction: column;
+    background-color: #715C8A;
+    
 
-      .LabelTextAreaCont {
-        font-family: calibri;
-                font-size: 20px;
-                font-weight: 600;
-        margin-bottom: 5px;
-      }
+   
+  }
+  .LabelTextAreaCont {
+    font-family: calibri;
+            font-size: 20px;
+            font-weight: 600;
+    margin-bottom: 5px;
+  }
 
-      .CampoTexto {
-        font-family: calibri;
-                font-size: 20px;
-                font-weight: 600;
-      }
-    }
+  .CampoTexto {
+    font-family: calibri;
+            font-size: 20px;
+            font-weight: 600;
   }
 
   .BotonFormContacto {
@@ -97,9 +102,19 @@
                 justify-content: center;
                 align-self: center;
   }
-}
 
 
+@media all and (max-width:700px) {
+  .forms {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0px;
+    width: 350px;
+    background-color: #715C8A;
+  }
+} 
 
 
 

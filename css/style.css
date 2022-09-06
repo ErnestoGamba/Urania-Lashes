@@ -495,58 +495,76 @@ ul {
   border-radius: 4px;
   font-family: calibri;
   Color: white; }
-  .FormContacto .TituloFormContacto {
-    font-family: calibri;
-    font-size: 22px;
-    margin-bottom: 20px; }
-  .FormContacto .campos {
+
+.TituloFormContacto {
+  font-family: calibri;
+  font-size: 22px;
+  margin-bottom: 20px; }
+
+.campos {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #715C8A;
+  padding: auto;
+  width: auto;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start; }
+
+.forms {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 350px;
+  background-color: #715C8A; }
+
+.TextAreaCont {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  text-align: center;
+  flex-direction: column;
+  background-color: #715C8A; }
+
+.LabelTextAreaCont {
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px; }
+
+.CampoTexto {
+  font-family: calibri;
+  font-size: 20px;
+  font-weight: 600; }
+
+.BotonFormContacto {
+  display: flex;
+  width: 120px;
+  background-color: #8569ab;
+  border: 0;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  padding: 10px;
+  color: #ffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: calibri;
+  font-weight: 600;
+  justify-content: center;
+  align-self: center; }
+
+@media all and (max-width: 700px) {
+  .forms {
+    background-color: aquamarine;
     display: flex;
-    flex-wrap: wrap;
-    background-color: #715C8A;
-    padding: auto;
-    width: auto;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start; }
-    .FormContacto .campos .forms {
-      background-color: aquamarine;
-      display: flex;
-      flex-direction: column;
-      margin-right: 20px;
-      width: 350px;
-      background-color: #715C8A; }
-    .FormContacto .campos .TextAreaCont {
-      display: flex;
-      flex-direction: column;
-      width: 350px;
-      text-align: center;
-      flex-direction: column;
-      background-color: #715C8A; }
-      .FormContacto .campos .TextAreaCont .LabelTextAreaCont {
-        font-family: calibri;
-        font-size: 20px;
-        font-weight: 600;
-        margin-bottom: 5px; }
-      .FormContacto .campos .TextAreaCont .CampoTexto {
-        font-family: calibri;
-        font-size: 20px;
-        font-weight: 600; }
-  .FormContacto .BotonFormContacto {
-    display: flex;
-    width: 120px;
-    background-color: #8569ab;
-    border: 0;
-    letter-spacing: 1px;
-    border-radius: 4px;
-    padding: 10px;
-    color: #ffff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 16px;
-    font-family: calibri;
-    font-weight: 600;
     justify-content: center;
-    align-self: center; }
+    flex-direction: column;
+    margin-right: 0px;
+    width: 350px;
+    background-color: #715C8A; } }
 
 /*
   .FormularioContacto{
