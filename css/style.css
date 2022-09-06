@@ -272,7 +272,7 @@ main {
     color: purple; }
   .footerdiv__ul {
     display: flex;
-    width: 400px;
+    width: 350px;
     align-items: center;
     justify-content: space-around;
     text-align: center;
