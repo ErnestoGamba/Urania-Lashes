@@ -1,16 +1,66 @@
 @import "colors";   
 
+.Titulos_index{
+  background-color: #ff758e;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+.TituloIndex{
+  display: iblock;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+       border-width: 5px;
+    font-family: 'Space Mono', monospace;
+   
+    background-color: #fce0e600;
+    text-decoration: solid;
+   
+    animation-name: animacionh2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+.SubtituloIndex {
+  display: iblock;
+    height: fit-content;
+    width: fit-content;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;    
+    border-width: 5px;
+    border-style: none;
+    font-family: 'Space Mono', monospace;
+    background-color: #fce0e600;
+    border-radius: 100px;
+        color: map-get($coloresGenerales, marfil);
+    animation-name: animacionh2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
 .ParrafoIndex {
     display: flex;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Space Mono', monospace;
     font-style: italic;
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-size: xx-large;
-    color: #7547FD;
-    margin-top: 40px;
-    margin-bottom: 100px;
+    font-size: 25px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 50px;
     padding-right: 50px;
      }
@@ -49,39 +99,121 @@
     padding: 20px;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 20px ;
+    margin-right: 20px;
     background-color: map-get($coloresGenerales, moradomedio) ;
     border-radius: 20px;
   
-    .articulosDeBelleza {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-  
-      .articulodebelleza {
-        display: inline-flex;
-        flex-direction: column;
-        height: fit-content;
-        width: 300px;
-        padding: 30px;
-        margin: 20px;
-        background-color: map-get($coloresGenerales, rosa);
-        border-radius: 10px;
-        border-width: 5px;
-        border-color: map-get($coloresGenerales, blanco); 
-        border-style: solid;
-        color:  map-get($coloresGenerales, moradomedio) ;
-        font-family: 'Rubik', sans-serif;
-        font-style: italic;
-      }
-    }
+   
   }
-  
+  .articulosDeBelleza {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+  }
+  .articulodebelleza {
+    display: inline-flex;
+    flex-direction: column;
+    height: fit-content;
+    width: fit-content;
+    padding: 30px;
+    margin: 20px;
+    background-color: map-get($coloresGenerales, rosa);
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: map-get($coloresGenerales, blanco); 
+    border-style: solid;
+    color:  map-get($coloresGenerales, moradomedio) ;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+  }
   .VideoEstetica {
     display: flex;
     justify-content: center;
     margin-top: 2%;
     padding: 3%;
+  }
+
+  @media all and (max-width:618px) { 
+    .TituloIndex{
+      display: iblock;
+        height: fit-content;
+        width: fit-content;
+        padding: 5px;
+        text-align: center;
+        font-size: 50px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+           border-width: 5px;
+        font-family: 'Space Mono', monospace;
+       
+        background-color: #fce0e600;
+        text-decoration: solid;
+       
+        animation-name: animacionh2;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; 
+    }
+    
+    .SubtituloIndex {
+      display: iblock;
+        height: fit-content;
+        width: fit-content;
+        padding: 0px;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;    
+        border-width: 5px;
+        border-style: none;
+        font-family: 'Space Mono', monospace;
+        background-color: #fce0e600;
+        border-radius: 100px;
+            color: map-get($coloresGenerales, marfil);
+        animation-name: animacionh2;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate; 
+    }
+    .ParrafoIndex {
+      display: flex;
+      font-family: 'Space Mono', monospace;
+      font-style: italic;
+      justify-content: center;
+      text-align: center;
+      font-weight: bold;
+      font-size: 15px;
+      color: #FFFF;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 50px;
+      padding-right: 50px;
+       }
+    .cajaArticles {
+    grid-area: cajaArticles;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;  
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    background-color: map-get($coloresGenerales, moradomedio) ;
+   }
+   .VideoEstetica {
+    display: flex;
+    justify-content: center;
+        margin-top: 2%;
+    padding: 0;
+  }
+
   }

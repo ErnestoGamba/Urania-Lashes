@@ -13,6 +13,7 @@ body {
   grid-template-columns: auto;
   grid-template-rows: auto;
 } */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&family=Rubik:ital,wght@1,600&family=Space+Mono&display=swap");
 body {
   width: 100%;
   height: 100%;
@@ -110,9 +111,12 @@ ul {
     display: flex;
     height: fit-content;
     width: fit-content;
+    background-color: #c2b3d4;
     padding: 2px;
-    border-radius: 20%;
-    font-family: 'Rubik', sans-serif;
+    border-radius: 50px;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    text-transform: uppercase;
     text-decoration: none;
     color: purple;
     /*
@@ -136,6 +140,7 @@ ul {
   display: flex;
   width: 100px;
   height: 100px;
+  font-family: 'Space Mono', monospace;
   background-color: red;
   border-radius: 50%;
   color: aqua;
@@ -147,6 +152,7 @@ main {
   background-color: #D4EFFF;
   height: 100%;
   width: 100%;
+  padding-top: 50px;
   padding-bottom: 50px; }
 
 /*footer*/
@@ -180,9 +186,9 @@ main {
     background-color: aqua; }
   .footer .footerdiv__ul {
     display: flex;
-    width: 200px;
+    width: 450px;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     color: #FFFF;
@@ -198,17 +204,63 @@ main {
     font-size: 12px; }
 
 /*effect colors*/
+.Titulos_index {
+  background-color: #ff758e;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 50px; }
+
+.TituloIndex {
+  display: iblock;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 5px;
+  font-family: 'Space Mono', monospace;
+  background-color: #fce0e600;
+  text-decoration: solid;
+  animation-name: animacionh2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+.SubtituloIndex {
+  display: iblock;
+  height: fit-content;
+  width: fit-content;
+  padding: 0px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 5px;
+  border-style: none;
+  font-family: 'Space Mono', monospace;
+  background-color: #fce0e600;
+  border-radius: 100px;
+  color: beige;
+  animation-name: animacionh2;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
 .ParrafoIndex, .ParrafoConocenos {
   display: flex;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Space Mono', monospace;
   font-style: italic;
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  font-size: xx-large;
-  color: #7547FD;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  font-size: 25px;
+  color: #FFFF;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding-left: 50px;
   padding-right: 50px; }
 
@@ -240,36 +292,108 @@ main {
   padding: 20px;
   margin-top: 2%;
   margin-bottom: 2%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20px;
+  margin-right: 20px;
   background-color: #7E5A9B;
   border-radius: 20px; }
-  .cajaArticles .articulosDeBelleza {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; }
-    .cajaArticles .articulosDeBelleza .articulodebelleza {
-      display: inline-flex;
-      flex-direction: column;
-      height: fit-content;
-      width: 300px;
-      padding: 30px;
-      margin: 20px;
-      background-color: pink;
-      border-radius: 10px;
-      border-width: 5px;
-      border-color: #FFFFFF;
-      border-style: solid;
-      color: #7E5A9B;
-      font-family: 'Rubik', sans-serif;
-      font-style: italic; }
+
+.articulosDeBelleza {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.articulodebelleza {
+  display: inline-flex;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  padding: 30px;
+  margin: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  color: #7E5A9B;
+  font-family: 'Rubik', sans-serif;
+  font-style: italic; }
 
 .VideoEstetica {
   display: flex;
   justify-content: center;
   margin-top: 2%;
   padding: 3%; }
+
+@media all and (max-width: 618px) {
+  .TituloIndex {
+    display: iblock;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    font-family: 'Space Mono', monospace;
+    background-color: #fce0e600;
+    text-decoration: solid;
+    animation-name: animacionh2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+  .SubtituloIndex {
+    display: iblock;
+    height: fit-content;
+    width: fit-content;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-style: none;
+    font-family: 'Space Mono', monospace;
+    background-color: #fce0e600;
+    border-radius: 100px;
+    color: beige;
+    animation-name: animacionh2;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; }
+  .ParrafoIndex, .ParrafoConocenos {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-right: 50px; }
+  .cajaArticles {
+    grid-area: cajaArticles;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+    background-color: #7E5A9B; }
+  .VideoEstetica {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 0; } }
 
 .ZonaTablas {
   display: flex;
