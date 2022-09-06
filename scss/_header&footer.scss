@@ -100,9 +100,9 @@ background-color: aqua;
     }
     .footerdiv__ul {
       display:flex;      
-      width: 500px;
+      width: 450px;
       align-items: center;
-      justify-content: space-evenly;
+      justify-content: flex-start;
       text-align: center;
       font-family: 'Rubik', sans-serif;
       color: #FFFF;

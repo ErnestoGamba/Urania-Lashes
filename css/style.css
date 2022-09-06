@@ -181,9 +181,9 @@ main {
     background-color: aqua; }
   .footer .footerdiv__ul {
     display: flex;
-    width: 500px;
+    width: 450px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     color: #FFFF;
@@ -506,21 +506,22 @@ ul {
     padding: auto;
     width: auto;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: flex-start;
+    align-items: flex-start; }
     .FormContacto .campos .forms {
+      background-color: aquamarine;
       display: flex;
       flex-direction: column;
-      align-self: start;
       margin-right: 20px;
       width: 350px;
       background-color: #715C8A; }
     .FormContacto .campos .TextAreaCont {
       display: flex;
+      flex-direction: column;
       width: 350px;
       text-align: center;
       flex-direction: column;
-      background-color: #715C8A;
-      margin: auto; }
+      background-color: #715C8A; }
       .FormContacto .campos .TextAreaCont .LabelTextAreaCont {
         font-family: calibri;
         font-size: 20px;
@@ -675,7 +676,7 @@ ul {
     text-align: center;
     justify-content: center;
     width: 100%;
-    background-color: #fc00a8;
+    background-color: #715C8A;
     padding: 5px;
     margin: auto;
     margin-top: 100px;
