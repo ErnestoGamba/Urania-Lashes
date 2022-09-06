@@ -1,6 +1,6 @@
 @import "colors";   
 
-.Titulos_index{
+.ContainerTitulos{
   background-color: #ff758e;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -17,15 +17,10 @@
     margin-left: auto;
     margin-right: auto;
        border-width: 5px;
-    font-family: 'Space Mono', monospace;
-   
+    font-family: 'Space Mono', monospace;   
     background-color: #fce0e600;
-    text-decoration: solid;
-   
-    animation-name: animacionh2;
-    animation-duration: 1.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate; 
+    text-decoration: solid;  
+
 }
 
 .SubtituloIndex {
