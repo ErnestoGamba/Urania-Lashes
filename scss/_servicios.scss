@@ -51,9 +51,18 @@ Th {
     background-color: #fce0e6;
 
   }
+  /*aca trate de mostrar que es un link de la manera mas sutil posible */
 .link{
   color: white;
   text-decoration: none;
+  text-decoration: underline;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50px;
+  &:hover {
+    color: white;
+    text-decoration: none;
+   }
 }
 
   .apa {

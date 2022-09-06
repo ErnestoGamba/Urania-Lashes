@@ -207,7 +207,8 @@ main {
   height: auto;
   font-family: 'Raleway', sans-serif;
   color: #FFFF;
-  font-size: 12px; }
+  font-size: 12px;
+  font-weight: bold; }
 
 @media all and (max-width: 990px) {
   .header__nav__ul__li {
@@ -470,9 +471,17 @@ td {
 tr:nth-child(even) {
   background-color: #fce0e6; }
 
+/*aca trate de mostrar que es un link de la manera mas sutil posible */
 .link {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  text-decoration: underline;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 50px; }
+  .link:hover {
+    color: white;
+    text-decoration: none; }
 
 .apa {
   text-align: right; }
